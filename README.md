@@ -6,3 +6,8 @@ O **Workload Generator** é uma ferramenta que automatiza a criação de cargas 
 
 - **Linguagem principal:** Go  
 - **Por que da escolha:** Testes de carga e simulações de alta performance são melhor suportados pelo Go, com concorrência eficiente e baixo overhead.
+
+## Arquitetura
+
+- **Arquitetura recomendada:** Modular / Event-Driven  
+- **Por que da escolha:** Simulações de carga se beneficiam de módulos independentes que podem gerar eventos e workloads em paralelo.
